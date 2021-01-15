@@ -66,7 +66,7 @@ namespace DynamicControlTest
         #endregion
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Button button1;
     }
 }
 

@@ -61,6 +61,7 @@ namespace DynamicControlTest
             this.Controls.Add(this.button1);
             this.Name = "UserControl1";
             this.Size = new System.Drawing.Size(114, 35);
+            this.Load += new System.EventHandler(this.UserControl1_Load);
             this.ResumeLayout(false);
 
         }

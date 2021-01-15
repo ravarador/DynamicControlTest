@@ -20,6 +20,7 @@ namespace DynamicControlTest
         private void button1_Click(object sender, EventArgs e)
         {
             UserControl1 userControl = new UserControl1();
+            userControl.form1 = this;
             flowLayoutPanel1.Controls.Add(userControl);
         }
     }
